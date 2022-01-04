@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 207, 236);
+}
+
+main{
+    width: 800px;
+    background-color: white;
+    padding: 20px 10px;
+    margin-top: 80px;
+}
+
+.message{
+    background-color: rgb(100, 149,237);
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+}
+
+h4{
+    font-variant: small-caps;
+    margin: 10px 15px 5px 15px;
+    font-weight: normal;
+}
+
+form{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+.alice{
+    text-align: right;
+    margin: 0;
+}
+
+.bob{
+    text-align: left;
+    margin: 0;
+}
+
+.time::after{
+    content: "\2713";
+}
+
+.time{
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.timeB{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#text{
+    width: 700px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(175, 220, 236);
+    border-radius: 10px;
+    border:0;
+    color: white;
+}
+
+#button{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(100, 149,237);
+    color: white;
+    border:0;
+    cursor: pointer;
+    font-variant: small-caps;
+    margin-top: 0;
+}
+
+#button:hover{
+    background-color: rgb(175, 220, 236);
+}
+
+#name{
+    color:rgb(72, 138, 199)
+}
